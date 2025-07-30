@@ -487,7 +487,7 @@ export default function Dashboard({ logs }: { logs: LogEntry[] }) {
                           onClick={() => handleSort('timestamp')}
                         >
                           <div className="flex items-center space-x-1">
-                            <span>Timestamp</span>
+                            <span>Timestamp UTC</span>
                             {getSortIcon('timestamp')}
                           </div>
                         </th>
